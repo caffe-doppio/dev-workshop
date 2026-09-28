@@ -4,22 +4,33 @@
 
 Cybersecurity methods for evidence management in strategic litigation.
 
-Participatory workshop, DFF AI & Digital Democracy InterHub Gathering, Amsterdam, 2026-10-07, 60 minutes.
+Participatory workshop,
+[DFF AI & Digital Democracy InterHub Gathering](https://digitalfreedomfund.org/community-programme/strategic-litigation-hubs/),
+Amsterdam,
+2026-10-07
+60 minutes.
 
 Facilitation: Sasha, Urgence Homophobie.
 
 ## About
 
-Litigators increasingly build cases on digital evidence: screenshots, platform notices, portal refusals, model outputs. Cybersecurity practitioners have long-standing methods to handle exactly that kind of material. This repository hands some of them over, reframed for legal practice: the Traffic Light Protocol, SHA-256 fingerprints, OpenTimestamps anchors, age encryption and chain of custody.
+Litigators increasingly build cases on digital evidence: screenshots, platform notices, portal refusals, model outputs.
 
-There are no slides. This repository is the support: participants read it during the session and keep it afterwards. The hands-on part runs on a fictional, Orwellian citizen portal built for the occasion. No real case data is published here.
+Cybersecurity practitioners have long-standing methods to handle exactly that kind of material.
+
+This repository hands some of them over, reframed for legal practice: the Traffic Light Protocol, SHA-256 fingerprints, OpenTimestamps anchors, age encryption and chain of custody.
+
+> [!TIP]
+> There are no slides. This repository is the support: participants read it during the session and keep it afterwards.
+> The hands-on part runs on a fictional, Orwellian citizen portal built for the occasion.
+> No real case data is published here.
 
 Start with [`support/support_EN_v01.md`](support/support_EN_v01.md).
 
 ## Status
 
 Work in progress. Materials are being prepared for the session.
-
+<!-- N'est pas mettre des répertoires et fichiers .gitignored, sauf dev/ -->
 ## Arborescence
 
 ```text
@@ -40,14 +51,13 @@ workshop/
 │       ├── digital-history.svg             (why the digital is political)
 │       ├── right-defendant.svg             (server, browser, user: two bugs, two owners)
 │       └── evidence-circuit.svg            (collect, seal, hand off, verify)
-├── lab/
-│   ├── miniluv/                            (fictional citizen portal)
+├── lab/                                    (fictional citizen portal prod)
+├── dev/
+│   ├── miniluv/                            (fictional citizen portal dev & préprod)
 │   │   └── specs/
-│   │       └── BRIEF-claude-code_v01.md    (self-contained brief: specs and alpha landing page)
 │   ├── fixtures/                           (synthetic HAR and pre-anchored .ots, empty for now)
 │   └── templates/                          (custody log, install checklist, empty for now)
 ├── facilitation/                           (timed runbook, empty for now)
-│   └── private/                            (gitignored: answer key, forged piece)
 └── resources/                              (responsible OSINT, further reading, empty for now)
 ```
 
@@ -60,11 +70,12 @@ Not created yet, listed for orientation only:
 - `facilitation/runbook.md` : timed runbook
 - `resources/osint.md` : responsible OSINT introduction
 
-## Conventions
+<!-- ## Conventions
 
 - No em-dash, no en-dash in produced content.
 - Versioned documents are never overwritten: v01 is kept alongside v02.
-- All lab material is synthetic and TLP:CLEAR. No real case data.
+- All dev/ material is synthetic and TLP:CLEAR. No real case data.
+- Some stuff in lab/, resources/ and facilitation/ may be TLP:GREEN.
 
 ## Licence
 
