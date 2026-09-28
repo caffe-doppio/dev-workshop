@@ -13,7 +13,7 @@
 | Session | 2026-10-07, Amsterdam, 60 minutes |
 | Target length | ~700 words, ~5 minutes |
 | Sources | `src/DFF_InterHub_Session_Proposal.md`, `hub/utrecht-retreat/keynote/digital-evidence-methodology-slides-EN.md`, `_standups/`, `homelab/anef/notes/20260819_ANEF-workshop-pitch-5min_EN_v01.md` |
-| Typography | No em-dash, no en-dash |
+<!--| Typography | No em-dash, no en-dash |-->
 
 ---
 
