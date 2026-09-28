@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="t d">
+  <title id="t">Why the digital is political</title>
+  <desc id="d">Timeline in four stops: ARPANET in 1969, FidoNet in 1984, digital infrastructure as the base today, reclaiming the digital now.</desc>
+  <style>
+    text { font-family: Inter, "Helvetica Neue", Arial, sans-serif; }
+    .h1 { font-size: 34px; font-weight: 700; fill: #ece9f5; }
+    .sub { font-size: 18px; fill: #a6a2b8; }
+    .year { font-size: 20px; font-weight: 700; letter-spacing: 2px; }
+    .ttl { font-size: 24px; font-weight: 700; fill: #ece9f5; }
+    .txt { font-size: 16px; fill: #a6a2b8; }
+    .quote { font-size: 20px; font-style: italic; fill: #ffb3a1; }
+  </style>
+  <rect width="1200" height="520" rx="24" fill="#15141c"/>
+  <text x="60" y="78" class="h1">Why the digital is political</text>
+  <text x="60" y="112" class="sub">A short history in four stops</text>
+
+  <line x1="170" y1="220" x2="1100" y2="220" stroke="#3a3848" stroke-width="4"/>
+  <polygon points="1100,210 1120,220 1100,230" fill="#3a3848"/>
+
+  <g text-anchor="middle">
+    <text x="170" y="182" class="year" fill="#b9a8ff">1969</text>
+    <circle cx="170" cy="220" r="16" fill="#b9a8ff"/>
+    <text x="170" y="282" class="ttl">ARPANET</text>
+    <text x="170" y="314" class="txt">Born out of Cold War</text>
+    <text x="170" y="338" class="txt">military research funding</text>
+
+    <text x="460" y="182" class="year" fill="#8ee6c4">1984</text>
+    <circle cx="460" cy="220" r="16" fill="#8ee6c4"/>
+    <text x="460" y="282" class="ttl">FidoNet</text>
+    <text x="460" y="314" class="txt">Bulletin boards: anyone</text>
+    <text x="460" y="338" class="txt">with a modem is a node</text>
+    <text x="460" y="362" class="txt">A taste of egalitarian utopia</text>
+
+    <text x="750" y="182" class="year" fill="#ff7a7a">TODAY</text>
+    <circle cx="750" cy="220" r="16" fill="#ff7a7a"/>
+    <text x="750" y="282" class="ttl">The base</text>
+    <text x="750" y="314" class="txt">Platforms, registries, portals:</text>
+    <text x="750" y="338" class="txt">the layer everything stands on,</text>
+    <text x="750" y="362" class="txt">where domination is organised</text>
+
+    <text x="1030" y="182" class="year" fill="#ffb3a1">NOW</text>
+    <circle cx="1030" cy="220" r="16" fill="#ffb3a1"/>
+    <text x="1030" y="282" class="ttl">Reclaim</text>
+    <text x="1030" y="314" class="txt">Document, prove, contest.</text>
+    <text x="1030" y="338" class="txt">Stop enduring it.</text>
+
+    <text x="600" y="460" class="quote">Reclaiming the digital is how you stop simply enduring it.</text>
+  </g>
+</svg>

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="t d">
+  <title id="t">Collect, seal, hand off, verify</title>
+  <desc id="d">Group A captures, fingerprints, anchors, logs and encrypts a piece of evidence. The fingerprint travels through a trusted channel, the file through an untrusted one. Group B receives, decrypts, fingerprints again, compares with the log and gives a verdict.</desc>
+  <style>
+    text { font-family: Inter, "Helvetica Neue", Arial, sans-serif; }
+    .h1 { font-size: 34px; font-weight: 700; fill: #ece9f5; }
+    .sub { font-size: 18px; fill: #a6a2b8; }
+    .lbl { font-size: 14px; font-weight: 700; letter-spacing: 3px; }
+    .n { font-size: 15px; font-weight: 800; fill: #15141c; }
+    .bt { font-size: 20px; font-weight: 700; fill: #ece9f5; }
+    .bs { font-size: 15px; fill: #a6a2b8; }
+    .ch { font-size: 16px; font-weight: 600; }
+    .foot { font-size: 18px; font-style: italic; fill: #ffb3a1; }
+  </style>
+  <defs>
+    <marker id="ag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b6880"/>
+    </marker>
+    <marker id="am" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8ee6c4"/>
+    </marker>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#ff7a7a"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="700" rx="24" fill="#15141c"/>
+  <text x="60" y="70" class="h1">Collect, seal, hand off, verify</text>
+  <text x="60" y="104" class="sub">The evidence circuit of the lab</text>
+
+  <!-- Group A -->
+  <text x="60" y="138" class="lbl" fill="#ffb3a1">GROUP A</text>
+  <g>
+    <rect x="60" y="150" width="200" height="96" rx="14" fill="#201f2a" stroke="#3a3848" stroke-width="2"/>
+    <circle cx="90" cy="198" r="16" fill="#ffb3a1"/><text x="90" y="203" class="n" text-anchor="middle">1</text>
+    <text x="116" y="192" class="bt">Capture</text><text x="116" y="216" class="bs">Console, HAR</text>
+
+    <rect x="285" y="150" width="200" height="96" rx="14" fill="#201f2a" stroke="#3a3848" stroke-width="2"/>
+    <circle cx="315" cy="198" r="16" fill="#ffb3a1"/><text x="315" y="203" class="n" text-anchor="middle">2</text>
+    <text x="341" y="192" class="bt">Fingerprint</text><text x="341" y="216" class="bs">SHA-256</text>
+
+    <rect x="510" y="150" width="200" height="96" rx="14" fill="#201f2a" stroke="#3a3848" stroke-width="2"/>
+    <circle cx="540" cy="198" r="16" fill="#ffb3a1"/><text x="540" y="203" class="n" text-anchor="middle">3</text>
+    <text x="566" y="192" class="bt">Anchor</text><text x="566" y="216" class="bs">OpenTimestamps</text>
+
+    <rect x="735" y="150" width="200" height="96" rx="14" fill="#201f2a" stroke="#3a3848" stroke-width="2"/>
+    <circle cx="765" cy="198" r="16" fill="#ffb3a1"/><text x="765" y="203" class="n" text-anchor="middle">4</text>
+    <text x="791" y="192" class="bt">Log</text><text x="791" y="216" class="bs">Custody, TLP</text>
+
+    <rect x="960" y="150" width="200" height="96" rx="14" fill="#201f2a" stroke="#3a3848" stroke-width="2"/>
+    <circle cx="990" cy="198" r="16" fill="#ffb3a1"/><text x="990" y="203" class="n" text-anchor="middle">5</text>
+    <text x="1016" y="192" class="bt">Encrypt</text><text x="1016" y="216" class="bs">age, for group B</text>
+  </g>
+  <g stroke="#6b6880" stroke-width="3">
+    <line x1="262" y1="198" x2="282" y2="198" marker-end="url(#ag)"/>
+    <line x1="487" y1="198" x2="507" y2="198" marker-end="url(#ag)"/>
+    <line x1="712" y1="198" x2="732" y2="198" marker-end="url(#ag)"/>
+    <line x1="937" y1="198" x2="957" y2="198" marker-end="url(#ag)"/>
+  </g>
+
+  <!-- Channels -->
+  <path d="M835,246 V330 H385 V452" fill="none" stroke="#8ee6c4" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#am)"/>
+  <text x="610" y="318" class="ch" fill="#8ee6c4" text-anchor="middle">Trusted channel: fingerprint posted in the room</text>
+  <path d="M1060,246 V452" fill="none" stroke="#ff7a7a" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#ar)"/>
+  <text x="1044" y="372" class="ch" fill="#ff7a7a" text-anchor="end">Untrusted channel:</text>
+  <text x="1044" y="394" class="ch" fill="#ff7a7a" text-anchor="end">the file itself</text>
+
+  <!-- Group B, right to left -->
+  <g>
+    <rect x="960" y="460" width="200" height="96" rx="14" fill="#201f2a" stroke="#3a3848" stroke-width="2"/>
+    <circle cx="990" cy="508" r="16" fill="#8ee6c4"/><text x="990" y="513" class="n" text-anchor="middle">6</text>
+    <text x="1016" y="502" class="bt">Receive</text><text x="1016" y="526" class="bs">The .age file</text>
+
+    <rect x="735" y="460" width="200" height="96" rx="14" fill="#201f2a" stroke="#3a3848" stroke-width="2"/>
+    <circle cx="765" cy="508" r="16" fill="#8ee6c4"/><text x="765" y="513" class="n" text-anchor="middle">7</text>
+    <text x="791" y="502" class="bt">Decrypt</text><text x="791" y="526" class="bs">age, own key</text>
+
+    <rect x="510" y="460" width="200" height="96" rx="14" fill="#201f2a" stroke="#3a3848" stroke-width="2"/>
+    <circle cx="540" cy="508" r="16" fill="#8ee6c4"/><text x="540" y="513" class="n" text-anchor="middle">8</text>
+    <text x="566" y="502" class="bt">Fingerprint</text><text x="566" y="526" class="bs">SHA-256 again</text>
+
+    <rect x="285" y="460" width="200" height="96" rx="14" fill="#201f2a" stroke="#3a3848" stroke-width="2"/>
+    <circle cx="315" cy="508" r="16" fill="#8ee6c4"/><text x="315" y="513" class="n" text-anchor="middle">9</text>
+    <text x="341" y="502" class="bt">Compare</text><text x="341" y="526" class="bs">Against the log</text>
+
+    <rect x="60" y="460" width="200" height="96" rx="14" fill="#201f2a" stroke="#3a3848" stroke-width="2"/>
+    <circle cx="90" cy="508" r="16" fill="#8ee6c4"/><text x="90" y="513" class="n" text-anchor="middle">10</text>
+    <text x="116" y="502" class="bt">Verdict</text><text x="116" y="526" class="bs">Accept or reject</text>
+  </g>
+  <g stroke="#6b6880" stroke-width="3">
+    <line x1="958" y1="508" x2="938" y2="508" marker-end="url(#ag)"/>
+    <line x1="733" y1="508" x2="713" y2="508" marker-end="url(#ag)"/>
+    <line x1="508" y1="508" x2="488" y2="508" marker-end="url(#ag)"/>
+    <line x1="283" y1="508" x2="263" y2="508" marker-end="url(#ag)"/>
+  </g>
+  <text x="60" y="590" class="lbl" fill="#8ee6c4">GROUP B</text>
+
+  <text x="600" y="652" class="foot" text-anchor="middle">For each step, counsel answers: what does it prove, and what does it not?</text>
+</svg>

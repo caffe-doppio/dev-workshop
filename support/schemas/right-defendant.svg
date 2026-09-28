@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-labelledby="t d">
+  <title id="t">Pointing at the right defendant</title>
+  <desc id="d">The server allows, the code in the browser denies, the user sees a denial. Four evidence layers. Two bugs with two different owners.</desc>
+  <style>
+    text { font-family: Inter, "Helvetica Neue", Arial, sans-serif; }
+    .h1 { font-size: 34px; font-weight: 700; fill: #ece9f5; }
+    .sub { font-size: 18px; fill: #a6a2b8; }
+    .lbl { font-size: 14px; font-weight: 700; letter-spacing: 3px; fill: #a6a2b8; }
+    .big { font-size: 36px; font-weight: 800; }
+    .txt { font-size: 16px; fill: #a6a2b8; }
+    .pill { font-size: 17px; font-weight: 600; fill: #ece9f5; }
+    .bt { font-size: 22px; font-weight: 700; }
+    .bo { font-size: 17px; fill: #ece9f5; }
+  </style>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b6880"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="640" rx="24" fill="#15141c"/>
+  <text x="60" y="70" class="h1">Pointing at the right defendant</text>
+  <text x="60" y="104" class="sub">One refusal, three readings, two owners</text>
+
+  <g text-anchor="middle">
+    <rect x="60" y="140" width="320" height="150" rx="16" fill="#201f2a" stroke="#8ee6c4" stroke-width="2"/>
+    <text x="220" y="182" class="lbl">SERVER</text>
+    <text x="220" y="232" class="big" fill="#8ee6c4">ALLOWED</text>
+    <text x="220" y="268" class="txt">The API answers: no block</text>
+
+    <rect x="440" y="140" width="320" height="150" rx="16" fill="#201f2a" stroke="#ff7a7a" stroke-width="2"/>
+    <text x="600" y="182" class="lbl">CODE IN THE BROWSER</text>
+    <text x="600" y="232" class="big" fill="#ff7a7a">DENIED</text>
+    <text x="600" y="268" class="txt">A front-end rule overrides it</text>
+
+    <rect x="820" y="140" width="320" height="150" rx="16" fill="#201f2a" stroke="#ff7a7a" stroke-width="2"/>
+    <text x="980" y="182" class="lbl">USER</text>
+    <text x="980" y="232" class="big" fill="#ff7a7a">DENIED</text>
+    <text x="980" y="268" class="txt">The screen shows a refusal</text>
+  </g>
+  <line x1="384" y1="215" x2="432" y2="215" stroke="#6b6880" stroke-width="3" marker-end="url(#ah)"/>
+  <line x1="764" y1="215" x2="812" y2="215" stroke="#6b6880" stroke-width="3" marker-end="url(#ah)"/>
+
+  <text x="60" y="342" class="sub">Evidence layers: each one alone fails, together they close the chain</text>
+  <g text-anchor="middle">
+    <rect x="60" y="358" width="252" height="44" rx="22" fill="#2a2836"/>
+    <text x="186" y="386" class="pill">1 · Screen</text>
+    <rect x="336" y="358" width="252" height="44" rx="22" fill="#2a2836"/>
+    <text x="462" y="386" class="pill">2 · Wire (HAR)</text>
+    <rect x="612" y="358" width="252" height="44" rx="22" fill="#2a2836"/>
+    <text x="738" y="386" class="pill">3 · Code</text>
+    <rect x="888" y="358" width="252" height="44" rx="22" fill="#2a2836"/>
+    <text x="1014" y="386" class="pill">4 · Correlation</text>
+  </g>
+
+  <rect x="60" y="436" width="528" height="120" rx="16" fill="#201f2a" stroke="#ffc766" stroke-width="2"/>
+  <text x="88" y="478" class="bt" fill="#ffc766">Bug 1 · wrong data value</text>
+  <text x="88" y="510" class="bo">Owner: the body holding the file</text>
+  <text x="88" y="536" class="txt">(for example, a prefecture)</text>
+
+  <rect x="612" y="436" width="528" height="120" rx="16" fill="#201f2a" stroke="#b9a8ff" stroke-width="2"/>
+  <text x="640" y="478" class="bt" fill="#b9a8ff">Bug 2 · blocking logic</text>
+  <text x="640" y="510" class="bo">Owner: the platform operator</text>
+  <text x="640" y="536" class="txt">(for example, a ministry)</text>
+
+  <text x="600" y="600" class="sub" text-anchor="middle">Two bugs, two owners. A complaint sent to the wrong door costs months.</text>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">60 minutes in the lab</title>
+  <desc id="d">Session timeline: 18 minutes of framing in four parts, then 42 minutes of hands-on lab in four phases.</desc>
+  <style>
+    text { font-family: Inter, "Helvetica Neue", Arial, sans-serif; }
+    .h1 { font-size: 34px; font-weight: 700; fill: #ece9f5; }
+    .sub { font-size: 18px; fill: #a6a2b8; }
+    .lbl { font-size: 14px; font-weight: 700; letter-spacing: 3px; }
+    .n { font-size: 18px; font-weight: 800; fill: #15141c; }
+    .tick { font-size: 14px; fill: #6b6880; }
+    .lg { font-size: 18px; fill: #ece9f5; }
+    .mn { fill: #a6a2b8; }
+    .foot { font-size: 18px; font-weight: 600; fill: #ffb3a1; }
+  </style>
+  <rect width="1200" height="560" rx="24" fill="#15141c"/>
+  <text x="60" y="70" class="h1">60 minutes in the lab</text>
+  <text x="60" y="104" class="sub">30% framing, 70% hands-on. No slides: this repository is the support.</text>
+
+  <text x="60" y="146" class="lbl" fill="#b9a8ff">FRAMING · 18 MIN</text>
+  <text x="384" y="146" class="lbl" fill="#ffb3a1">LAB · 42 MIN</text>
+
+  <g>
+    <rect x="61" y="160" width="52" height="60" rx="6" fill="#b9a8ff"/>
+    <rect x="115" y="160" width="88" height="60" rx="6" fill="#b9a8ff"/>
+    <rect x="205" y="160" width="124" height="60" rx="6" fill="#b9a8ff"/>
+    <rect x="331" y="160" width="52" height="60" rx="6" fill="#b9a8ff"/>
+    <rect x="385" y="160" width="268" height="60" rx="6" fill="#ffb3a1"/>
+    <rect x="655" y="160" width="142" height="60" rx="6" fill="#ffb3a1"/>
+    <rect x="799" y="160" width="214" height="60" rx="6" fill="#ffb3a1"/>
+    <rect x="1015" y="160" width="124" height="60" rx="6" fill="#8ee6c4"/>
+  </g>
+  <g text-anchor="middle">
+    <text x="87" y="196" class="n">1</text>
+    <text x="159" y="196" class="n">2</text>
+    <text x="267" y="196" class="n">3</text>
+    <text x="357" y="196" class="n">4</text>
+    <text x="519" y="196" class="n">5</text>
+    <text x="726" y="196" class="n">6</text>
+    <text x="906" y="196" class="n">7</text>
+    <text x="1077" y="196" class="n">8</text>
+
+    <text x="60" y="246" class="tick">0</text>
+    <text x="330" y="246" class="tick">15</text>
+    <text x="384" y="246" class="tick">18</text>
+    <text x="654" y="246" class="tick">33</text>
+    <text x="798" y="246" class="tick">41</text>
+    <text x="1014" y="246" class="tick">53</text>
+    <text x="1140" y="246" class="tick">60</text>
+  </g>
+
+  <g>
+    <circle cx="73" cy="310" r="13" fill="#b9a8ff"/><text x="73" y="316" class="n" text-anchor="middle" font-size="15">1</text>
+    <text x="100" y="316" class="lg">Why the digital is political <tspan class="mn">· 3 min</tspan></text>
+    <circle cx="73" cy="352" r="13" fill="#b9a8ff"/><text x="73" y="358" class="n" text-anchor="middle" font-size="15">2</text>
+    <text x="100" y="358" class="lg">Evidence before a judge <tspan class="mn">· 5 min</tspan></text>
+    <circle cx="73" cy="394" r="13" fill="#b9a8ff"/><text x="73" y="400" class="n" text-anchor="middle" font-size="15">3</text>
+    <text x="100" y="400" class="lg">From the field, limits, disclosure <tspan class="mn">· 7 min</tspan></text>
+    <circle cx="73" cy="436" r="13" fill="#b9a8ff"/><text x="73" y="442" class="n" text-anchor="middle" font-size="15">4</text>
+    <text x="100" y="442" class="lg">Live demo on the big screen <tspan class="mn">· 3 min</tspan></text>
+
+    <circle cx="633" cy="310" r="13" fill="#ffb3a1"/><text x="633" y="316" class="n" text-anchor="middle" font-size="15">5</text>
+    <text x="660" y="316" class="lg">Collect and seal <tspan class="mn">· 15 min</tspan></text>
+    <circle cx="633" cy="352" r="13" fill="#ffb3a1"/><text x="633" y="358" class="n" text-anchor="middle" font-size="15">6</text>
+    <text x="660" y="358" class="lg">The hidden bug: disclose or not? <tspan class="mn">· 8 min</tspan></text>
+    <circle cx="633" cy="394" r="13" fill="#ffb3a1"/><text x="633" y="400" class="n" text-anchor="middle" font-size="15">7</text>
+    <text x="660" y="400" class="lg">Hand-off and verification <tspan class="mn">· 12 min</tspan></text>
+    <circle cx="633" cy="436" r="13" fill="#8ee6c4"/><text x="633" y="442" class="n" text-anchor="middle" font-size="15">8</text>
+    <text x="660" y="442" class="lg">Debrief, open issues <tspan class="mn">· 7 min</tspan></text>
+  </g>
+
+  <text x="60" y="512" class="foot">Roles in every group: lab tech · counsel · custodian</text>
+</svg>
