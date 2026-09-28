@@ -58,7 +58,7 @@ The point isn't to turn lawyers into hackers. It's to make sure that when a syst
 ## Speaker notes
 
 - If time runs short, cut the "slots" paragraph (the pattern is already carried by ANEF) and the OSINT sentence.
-- "Cold War military research" is deliberate. Do not say the network was "built to survive a nuclear attack": that account is contested.
-- [Non vérifié] "Widely reported to be scalped by bots" needs a public source (press or NGO report) before delivery. Fallback wording: "the booking systems make scalping easy".
+- "Widely reported to be scalped by bots" needs a public source [Clara Martot Barcy in Marsactu](https://marsactu.fr/a-marseille-des-etrangers-obliges-dacheter-des-rendez-vous-pour-etre-recus-en-prefecture/) before delivery.
+Fallback wording: "the booking systems make scalping easy".
 - Prefecture booking findings are TLP:AMBER+STRICT and not yet disclosed. Stay at pattern level: no mention of captcha type, request structure or slot inventory.
 - ANEF case A is told as on 2026-08-19 (trusted audience). Case B (third-party file) and the `fprnsis` finding are out of scope for this pitch and for the public repository.
