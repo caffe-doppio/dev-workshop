@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+._*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Environment and secrets
+.env
+.env.*
+*.key
+age-keys/
+
+# Facilitator material: answer key, forged piece. Kept local until after the session
+facilitation/private/
+
+# Participant work produced during the lab
+lab/work/
+
+# HAR files hold session tokens and personal data: ignored by default
+*.har
+# Exception: synthetic fixtures, generated from the fictional service only
+!lab/fixtures/*.har
+
+# Landing page tooling, if any
+node_modules/
+dist/
