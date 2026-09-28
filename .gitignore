@@ -16,7 +16,7 @@ age-keys/
 # Agentic context
 .claude/
 
-# Developpement environement
+# Developper environnement
 dev/
 
 # Facilitator material: answer key, forged piece. Kept local until after the session
@@ -27,8 +27,11 @@ lab/work/
 
 # HAR files hold session tokens and personal data: ignored by default
 *.har
+*.log
+
 # Exception: synthetic fixtures, generated from the fictional service only
 !lab/fixtures/*.har
+!lab/fixtures/*.log
 
 # Landing page tooling, if any
 node_modules/
