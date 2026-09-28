@@ -13,6 +13,12 @@
 *.key
 age-keys/
 
+# Agentic context
+.claude/
+
+# Developpement environement
+dev/
+
 # Facilitator material: answer key, forged piece. Kept local until after the session
 facilitation/private/
 
