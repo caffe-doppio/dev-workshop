@@ -53,10 +53,13 @@ workshop/
 │       └── evidence-circuit.svg            (collect, seal, hand off, verify)
 ├── lab/                                    (fictional citizen portal prod)
 ├── dev/
-│   ├── miniluv/                            (fictional citizen portal dev & préprod)
-│   │   └── specs/
-│   ├── fixtures/                           (synthetic HAR and pre-anchored .ots, empty for now)
-│   └── templates/                          (custody log, install checklist, empty for now)
+│   └── miniluv/                            (fictional citizen portal dev & préprod)
+│       ├── README.md                       (how to run it locally)
+│       ├── specs/
+│       │   └── SPEC-miniluv_v01.md         (personas, endpoints, scenarios, fixture plan)
+│       ├── site/                           (Vue + Fastify portal, Docker, static JSON API)
+│       ├── fixtures/                       (synthetic HAR and pre-anchored .ots)
+│       └── templates/                      (custody log, install checklist, empty for now)
 ├── facilitation/                           (timed runbook, empty for now)
 └── resources/                              (responsible OSINT, further reading, empty for now)
 ```
@@ -65,7 +68,7 @@ workshop/
 
 Not created yet, listed for orientation only:
 
-- `lab/miniluv/specs/SPEC-miniluv_v01.md` and `lab/miniluv/site/` : produced from the brief
+- `lab/miniluv/` : promotion of `dev/miniluv/` after the session
 - `lab/templates/` : custody log (YAML and printable), install checklist (age, OpenTimestamps client)
 - `facilitation/runbook.md` : timed runbook
 - `resources/osint.md` : responsible OSINT introduction
