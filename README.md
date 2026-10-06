@@ -25,7 +25,8 @@ This repository hands some of them over, reframed for legal practice: the Traffi
 > The hands-on part runs on a fictional, Orwellian citizen portal built for the occasion.
 > No real case data is published here.
 
-Start with [`support/support_EN_v01.md`](support/support_EN_v01.md).
+Participants: start with [`workbook/README.md`](workbook/README.md).
+Workshop presentation for the organisers: [`support/support_EN_v01.md`](support/support_EN_v01.md).
 
 ## Status
 
@@ -60,6 +61,10 @@ workshop/
 │       ├── site/                           (Vue + Fastify portal, Docker, static JSON API)
 │       ├── fixtures/                       (synthetic HAR and pre-anchored .ots)
 │       └── templates/                      (custody log, install checklist, empty for now)
+├── workbook/                               (participant material, start here during the lab)
+│   ├── README.md                           (how the lab works, persona choice, wiki index)
+│   ├── personas/                           (one sheet per fictional citizen, TLP:GREEN)
+│   └── wiki/                               (one page per notion: browser, seal, share, frame, terminal)
 ├── facilitation/                           (timed runbook, empty for now)
 └── resources/                              (responsible OSINT, further reading, empty for now)
 ```
