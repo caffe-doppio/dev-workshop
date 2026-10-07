@@ -3,7 +3,9 @@
 
 ![TLP:CLEAR](../assets/badges-tlp/tlp-clear.svg)
 
-> [!TIP] TL;DR
+> [!TIP]
+> **TL;DR**
+>
 > **Cybersecurity methods for evidence management in strategic litigation.**
 >
 > **Why the digital is political**
@@ -81,8 +83,8 @@ Portal [Miniluv Citizen Services](<https://miniluv-workshop-hands-in.osc-fr1.sca
 - **Where the harm happens.** For LGBTQIA+ people in migration, registries, portals and platforms are not a side issue. A residence permit, an appointment, a correction of one's own civil data: each goes through a screen that can say no without explaining why.
 - **Reclaiming it.** Reclaiming the digital means documenting, proving and contesting. It is how you stop simply enduring it.
 
-> [!NOTE] Takeaway for the room:
-> the methods in this session are not neutral techniques. They are a way of making a machine's decision visible to the people it affects, and to the judge who reviews it.
+> [!NOTE]
+> **Takeaway for the room:** the methods in this session are not neutral techniques. They are a way of making a machine's decision visible to the people it affects, and to the judge who reviews it.
 
 ---
 
@@ -94,15 +96,17 @@ Portal [Miniluv Citizen Services](<https://miniluv-workshop-hands-in.osc-fr1.sca
 - **Our role: technical and pedagogical at the same time**, without imposing a reading on the magistrate. We bring facts the judge can check, and one sentence that explains them.
 - **The goal: point at the right door.** Show **where** a right is blocked, and **which administration** is responsible, so the right body ends up as defendant. A complaint sent to the wrong body can cost months.
 
-> [!TIP] No spec yet
+> [!TIP]
+> **No spec yet**
+>
 > In the proceedings we work on, there are no explicit admissibility criteria for this kind of evidence. We are partly writing the spec as we go, which is also why sharing methods across hubs matters.
 
 Administrative justice has long rested on an imbalance: the administration holds the file, the logs and the rules, and the person holds a refusal. Well-preserved digital evidence moves part of that knowledge to the person's side of the table.
 
 ![What digital evidence can establish: seven claims turned into facts](schemas/evidence-establishes.svg)
 
-> [!NOTE] What it does not do:
-> replace the judge's own investigation. It gives the judge precise facts to ask the administration about.
+> [!NOTE]
+> **What it does not do:** replace the judge's own investigation. It gives the judge precise facts to ask the administration about.
 
 ---
 
