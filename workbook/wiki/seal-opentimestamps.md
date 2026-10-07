@@ -39,11 +39,13 @@ Keep the `.ots` file **next to** the evidence and log it in the [custody log](sh
 
 Right after `ots stamp`, the anchor is **pending**: it has been sent to public calendar servers, and will be written into the Bitcoin blockchain within a few hours. During the lab, your anchors will stay pending. That is expected.
 
-To see a confirmed anchor, the facilitator will show one made days before the session.
+To see a confirmed anchor, the facilitator will show one made before the session.
+
+Once confirmed, `ots verify` checks the block against a Bitcoin node running on your own computer. Most laptops have none: use the website below to verify instead.
 
 ## Without a terminal
 
-The website https://opentimestamps.org lets you drop a file and get the `.ots` back. The fingerprint is computed in your browser; the file is not uploaded.
+The website https://opentimestamps.org lets you drop a file and get the `.ots` back, or drop an `.ots` and its file to verify them. The fingerprint is computed in your browser; the file is not uploaded.
 
 ## See also
 
