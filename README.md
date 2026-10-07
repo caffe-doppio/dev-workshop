@@ -27,9 +27,11 @@ This repository hands some of them over, reframed for legal practice: the Traffi
 
 ## Find this repository
 
-![QR code to https://framagit.org/caffe-doppio/gathering-lab](assets/qr/repo-gathering-lab.svg){width=240px}
+![QR code to https://github.com/caffe-doppio/dev-workshop](assets/qr/hub/repo-dev-workshop.svg)
 
 <https://framagit.org/caffe-doppio/gathering-lab>
+<!--Pour faire beau-->
+<https://github.com/caffe-doppio/dev-workshop>
 
 Participants: start with [`workbook/README.md`](workbook/README.md).
 Workshop presentation for the organisers: [`support/support_EN_v01.md`](support/support_EN_v02.md).

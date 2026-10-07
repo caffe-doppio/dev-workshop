@@ -45,9 +45,10 @@
 > The point is not to turn lawyers into hackers. It is to make sure that when a system denies someone a right, the denial can be shown, understood, and sent to the right door.
 
 <https://framagit.org/caffe-doppio/gathering-lab>
+<!--Pour faire beau-->
 <https://github.com/caffe-doppio/dev-workshop>
 
-![QR code to https://framagit.org/caffe-doppio/gathering-lab](../assets/qr/repo-gathering-lab.svg)
+![QR code to https://github.com/caffe-doppio/dev-workshop](../assets/qr/hub/repo-dev-workshop.svg)
 
 Participant material : [`workbook/README.md`](../workbook/README.md)
 Portal [Miniluv Citizen Services](<https://miniluv-workshop-hands-in.osc-fr1.scalingo.io/#/>)
