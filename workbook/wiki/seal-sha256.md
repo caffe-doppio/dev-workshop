@@ -42,7 +42,16 @@ Copy the result into the [custody log](share-custody-log.md), with the time.
 ## Check a file you received
 
 1. Get the expected fingerprint by a **different channel** than the file (posted on the wall, said aloud, written on paper).
-2. Compute the fingerprint of the file you received.
+2. Let the computer compare it with the file you received. Replace `EXPECTED` with the 64 characters:
+
+| System | Command | Same file | Different file |
+|--------|---------|-----------|----------------|
+| macOS | `echo "EXPECTED  received.har" \| shasum -a 256 -c` | `received.har: OK` | `received.har: FAILED` |
+| Linux | `echo "EXPECTED  received.har" \| sha256sum -c` | `received.har: OK` | `received.har: FAILED` |
+| Windows, PowerShell | `(Get-FileHash .\received.har).Hash -eq "EXPECTED"` | `True` | `False` |
+
+Two spaces between the fingerprint and the file name. Capitals or lower case do not matter: Windows prints capitals, macOS and Linux lower case.
+
 3. Same? The file is the one that was fingerprinted. Different? **Reject it**, whatever it contains.
 
 > [!TIP]

@@ -59,6 +59,7 @@ Then [fingerprint](seal-sha256.md) `received.har` and compare with the fingerpri
 | Encrypting with your own public key | Only you can open it. The recipient cannot |
 | Sending `group.key` instead of the public key | Your private key is exposed: make a new one, and log it |
 | Decrypting and trusting the content without checking the fingerprint | You do not know what you received |
+| Decrypting with `-o` to the name of a file you already have | It is overwritten without warning. Always decrypt to a new name, such as `received.har` |
 
 ## See also
 

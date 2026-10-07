@@ -39,12 +39,17 @@ cd lab-evidence
 
 Check first: `age --version`, `ots --version`. If both answer, skip this.
 
+Install **before the session**: some steps take minutes or need admin rights. One laptop per group with `age` is enough. `ots` is optional.
+
 | Tool | macOS (Homebrew) | Linux (Debian, Ubuntu) | Windows |
 |------|------------------|------------------------|---------|
 | age | `brew install age` | `sudo apt install age` | `winget install FiloSottile.age` |
-| ots | `pip3 install opentimestamps-client` | `pip3 install opentimestamps-client` | `pip install opentimestamps-client` (needs Python) |
+| ots | `brew install opentimestamps-client` | `sudo apt install pipx`, `pipx ensurepath`, open a new terminal, `pipx install opentimestamps-client` | Use https://opentimestamps.org (no install) |
 
-No install possible? Pair with a group whose laptop has the tools, or use https://opentimestamps.org for the anchor.
+- No Homebrew on your Mac? Install it from https://brew.sh first: several minutes, admin rights.
+- Why not `pip install`: recent Python refuses it outside a virtual environment (`externally-managed-environment`).
+
+No install possible? `ots`: use https://opentimestamps.org. `age` has no web equivalent: pair with a group whose laptop has it.
 
 ## Fingerprint ([SHA-256](seal-sha256.md))
 
@@ -55,13 +60,17 @@ No install possible? Pair with a group whose laptop has the tools, or use https:
 | Windows, PowerShell | `Get-FileHash .\evidence.har -Algorithm SHA256` |
 | Windows, cmd | `certutil -hashfile evidence.har SHA256` |
 
+Windows prints the fingerprint in capitals, macOS and Linux in lower case: same fingerprint. Compare a received file: [SHA-256](seal-sha256.md#check-a-file-you-received).
+
 ## Anchor ([OpenTimestamps](seal-opentimestamps.md))
 
 ```sh
 ots stamp evidence.har            # creates evidence.har.ots
 ots info evidence.har.ots         # inspect
-ots verify evidence.har.ots       # check (pending during the lab: normal)
+ots verify evidence.har.ots       # needs a local Bitcoin node: pending during the lab, normal
 ```
+
+To verify a confirmed anchor without a Bitcoin node: drop the `.ots` and its file on https://opentimestamps.org.
 
 ## Encrypt ([age](seal-age.md))
 
@@ -70,6 +79,8 @@ age-keygen -o group.key                                 # once; prints your publ
 age -r age1THEIR_KEY -o evidence.har.age evidence.har   # encrypt for another group
 age -d -i group.key -o received.har evidence.har.age    # decrypt what was sent to you
 ```
+
+`-o` overwrites an existing file without warning: always decrypt to a new name, never to the name of your own capture.
 
 Windows PowerShell: same commands, `age.exe` if `age` is not found.
 

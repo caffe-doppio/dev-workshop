@@ -362,12 +362,12 @@ Get-FileHash .\evidence.har -Algorithm SHA256     # Windows (PowerShell)
 
 # Anchor in time
 ots stamp evidence.har                            # creates evidence.har.ots
-ots verify evidence.har.ots                       # once the anchor is confirmed
+ots verify evidence.har.ots                       # needs a local Bitcoin node; otherwise https://opentimestamps.org
 
 # Encrypt for another group
 age-keygen -o group.key                           # prints your public key: age1...
 age -r age1... -o evidence.har.age evidence.har   # encrypt for the recipient's key
-age -d -i group.key -o evidence.har evidence.har.age   # decrypt with your own key
+age -d -i group.key -o received.har evidence.har.age   # decrypt with your own key, to a new name
 ```
 
 ---

@@ -17,6 +17,16 @@ Corrections are logged here, never silently applied. Versioned documents are nev
 | C-005 | Section 5: each instrument gets a two-sentence description, an example snippet, and TLP labels shown as badges |
 | C-006 | Section 6: storytelling presentation of the portal, screenshots, personas and live demo folded in `<details>` |
 | C-007 | Sections 2 and 3: "What digital evidence can establish" and "Four evidence layers" tables replaced by schemas `evidence-establishes.svg` and `evidence-layers.svg` |
+| C-008 | Section 7: decryption wrote to `-o evidence.har`. `age` overwrites an existing file without warning, so a received piece could replace one's own capture. Now `-o received.har`, as in the wiki |
+| C-009 | Section 7: `ots verify` was given as the check "once the anchor is confirmed". It needs a local Bitcoin node; the website is now named as the way to verify |
+
+### Workbook
+
+- `wiki/terminal-cheatsheet.md`: `pip3 install opentimestamps-client` fails on recent macOS (Homebrew Python) and Debian/Ubuntu with `externally-managed-environment`. Replaced by `brew install opentimestamps-client` (macOS) and `pipx` (Linux). Windows: no tested path, the website is given instead.
+- `wiki/terminal-cheatsheet.md`: added that `age` has no web fallback, that `-o` overwrites without warning, and that Windows prints fingerprints in capitals.
+- `wiki/seal-sha256.md`: the page promised a comparison done by the computer "below" and gave none. Commands added for macOS, Linux and Windows.
+- `wiki/seal-age.md`: overwrite with `-o` added to common mistakes.
+- `README.md`: new "Before you come" section: one laptop per group, Firefox or Chrome, `age` on at least one laptop, `ots` optional.
 
 ### Pitch
 

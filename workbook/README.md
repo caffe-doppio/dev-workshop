@@ -15,6 +15,12 @@ Miniluv Citizen Services is fictional. Every citizen and every value in it is sy
 
 ---
 
+## Before you come
+
+- **One laptop per group** is enough, with **Firefox or Chrome**. A phone or a tablet will not do: no DevTools.
+- On at least one laptop of the group, `age --version` must answer in a terminal. Not installed? [Terminal cheat sheet](wiki/terminal-cheatsheet.md#install-the-tools): install it before the session, some steps need admin rights.
+- `ots` (OpenTimestamps) is optional: https://opentimestamps.org does the same without installing anything.
+
 ## How the lab works
 
 1. Form a group of 3 to 5, mixing hubs. Pick [roles](wiki/share-roles.md): Lab tech, Counsel, Custodian.
