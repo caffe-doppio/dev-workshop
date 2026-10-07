@@ -58,7 +58,7 @@ Portal [Miniluv Citizen Services](<https://miniluv-workshop-hands-in.osc-fr1.sca
 ![60 minutes in the lab](schemas/lab-flow.svg)
 
 - **No slides.** This repository is the support, and you can take it home. Everything said in the room is written here or in the [workbook](../workbook/README.md).
-- **Mixed-hub groups**, 3 to 5 people. AI Hub people tend to drive the tools, Digital Democracy Hub people tend to argue what the evidence proves. Every group needs both.
+- **Mixed-hub groups**, 3 to 5 people.
 - **Three roles** in every group ([Roles](../workbook/wiki/share-roles.md)):
   - **Lab tech**: runs the browser and the terminal.
   - **Counsel**: says what the evidence proves, and what it does not.
@@ -77,11 +77,12 @@ Portal [Miniluv Citizen Services](<https://miniluv-workshop-hands-in.osc-fr1.sca
 
 - **Origins.** The network was born out of Cold War military research. It was built to survive, not to be fair.
 - **The utopia.** In the eighties, FidoNet and the bulletin boards gave a taste of an egalitarian network: anyone with a modem could be a node, relay messages, host a community.
-- **The base.** Since then, digital infrastructure has become the base, in Marx's sense: the layer everything else stands on, and through which domination is organised. Who controls the portal controls the queue.
+- **The base.** Since then, digital infrastructure has become the base, in Marx's sense: the layer everything else stands on, and through which domination is organised.
 - **Where the harm happens.** For LGBTQIA+ people in migration, registries, portals and platforms are not a side issue. A residence permit, an appointment, a correction of one's own civil data: each goes through a screen that can say no without explaining why.
 - **Reclaiming it.** Reclaiming the digital means documenting, proving and contesting. It is how you stop simply enduring it.
 
-**Takeaway for the room:** the methods in this session are not neutral techniques. They are a way of making a machine's decision visible to the people it affects, and to the judge who reviews it.
+> [!NOTE] Takeaway for the room:
+> the methods in this session are not neutral techniques. They are a way of making a machine's decision visible to the people it affects, and to the judge who reviews it.
 
 ---
 
@@ -92,7 +93,9 @@ Portal [Miniluv Citizen Services](<https://miniluv-workshop-hands-in.osc-fr1.sca
 - **Judges are not geeks, and they should not have to be.** The burden is on us to translate, not on them to learn DevTools.
 - **Our role: technical and pedagogical at the same time**, without imposing a reading on the magistrate. We bring facts the judge can check, and one sentence that explains them.
 - **The goal: point at the right door.** Show **where** a right is blocked, and **which administration** is responsible, so the right body ends up as defendant. A complaint sent to the wrong body can cost months.
-- **No spec yet.** In the proceedings we work on, there are no explicit admissibility criteria for this kind of evidence. We are partly writing the spec as we go, which is also why sharing methods across hubs matters.
+
+> [!TIP] No spec yet.
+> In the proceedings we work on, there are no explicit admissibility criteria for this kind of evidence. We are partly writing the spec as we go, which is also why sharing methods across hubs matters.
 
 ### What digital evidence can establish
 
@@ -108,7 +111,8 @@ Administrative justice has long rested on an imbalance: the administration holds
 | **That the evidence has not changed** since capture | A screenshot the other side can call edited |
 | **A pattern**, once several people document the same way | An isolated anecdote |
 
-What it does not do: replace the judge's own investigation. It gives the judge precise facts to ask the administration about.
+> [!NOTE] What it does not do:
+> replace the judge's own investigation. It gives the judge precise facts to ask the administration about.
 
 ---
 
