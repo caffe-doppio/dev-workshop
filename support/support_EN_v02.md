@@ -97,8 +97,6 @@ Portal [Miniluv Citizen Services](<https://miniluv-workshop-hands-in.osc-fr1.sca
 > [!TIP] No spec yet
 > In the proceedings we work on, there are no explicit admissibility criteria for this kind of evidence. We are partly writing the spec as we go, which is also why sharing methods across hubs matters.
 
-### What digital evidence can establish
-
 Administrative justice has long rested on an imbalance: the administration holds the file, the logs and the rules, and the person holds a refusal. Well-preserved digital evidence moves part of that knowledge to the person's side of the table.
 
 ![What digital evidence can establish: seven claims turned into facts](schemas/evidence-establishes.svg)
