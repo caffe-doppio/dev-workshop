@@ -94,22 +94,14 @@ Portal [Miniluv Citizen Services](<https://miniluv-workshop-hands-in.osc-fr1.sca
 - **Our role: technical and pedagogical at the same time**, without imposing a reading on the magistrate. We bring facts the judge can check, and one sentence that explains them.
 - **The goal: point at the right door.** Show **where** a right is blocked, and **which administration** is responsible, so the right body ends up as defendant. A complaint sent to the wrong body can cost months.
 
-> [!TIP] No spec yet.
+> [!TIP] No spec yet
 > In the proceedings we work on, there are no explicit admissibility criteria for this kind of evidence. We are partly writing the spec as we go, which is also why sharing methods across hubs matters.
 
 ### What digital evidence can establish
 
 Administrative justice has long rested on an imbalance: the administration holds the file, the logs and the rules, and the person holds a refusal. Well-preserved digital evidence moves part of that knowledge to the person's side of the table.
 
-| It can establish | Instead of |
-|------------------|------------|
-| **What the system actually answered**, field by field | "The portal did not let me", which the administration can deny |
-| **That a refusal exists at all**, when no decision was ever notified | A decision nobody signed, that cannot be challenged because it cannot be shown |
-| **When** it happened, checkable by anyone | A date that depends on the person's phone |
-| **Which rule** produced the refusal, and in which component | A blanket complaint against "the administration" |
-| **Which body** owns that rule or that data | A complaint sent to the wrong defendant |
-| **That the evidence has not changed** since capture | A screenshot the other side can call edited |
-| **A pattern**, once several people document the same way | An isolated anecdote |
+![What digital evidence can establish: seven claims turned into facts](schemas/evidence-establishes.svg)
 
 > [!NOTE] What it does not do:
 > replace the judge's own investigation. It gives the judge precise facts to ask the administration about.
@@ -128,12 +120,7 @@ Administrative justice has long rested on an imbalance: the administration holds
 - **Two bugs, two owners.** A wrong data value held by one body, and a blocking rule owned by another. Without the evidence chain, both complaints go to the same wrong address.
 - **Four evidence layers, cheapest first** ([Evidence layers](../workbook/wiki/frame-evidence-layers.md)):
 
-| Layer | What it is | Where you find it | Who can read it |
-|-------|------------|-------------------|-----------------|
-| **Screen** | What the person saw | The page itself | Anyone |
-| **Wire** | What the server actually answered (HAR capture) | DevTools > Network | Anyone, with one sentence of help |
-| **Code** | The rule that turned the answer into the screen | DevTools > Sources / Debugger | Needs a technical witness |
-| **Correlation** | "This value, through this rule, gave that screen" | Counsel's sentence | Anyone, once written well |
+![Four evidence layers, cheapest first: screen, wire and code converge into correlation](schemas/evidence-layers.svg)
 
 - **Any layer alone fails.** A screenshot alone is a claim. A HAR alone is unreadable. Code alone is a rule that may never have run in this case. Together they close the chain.
 - **Asking for the code.** Many public portals publish their source code. In France, source code held by an administration is a communicable administrative document (CRPA art. L. 300-2), and a person subject to an algorithmic individual decision can ask for its rules (CRPA art. L. 311-3-1). Published code is **a** version: only the timestamped capture shows what ran that day.
@@ -422,4 +409,3 @@ What to keep:
 - ISO/IEC 27037:2012, guidelines for identification, collection, acquisition and preservation of digital evidence
 - Regulation (EU) No 910/2014 (eIDAS), art. 41
 - Code des relations entre le public et l'administration, art. L. 300-2 and L. 311-3-1
-- Responsible OSINT: see `resources/` (in preparation)

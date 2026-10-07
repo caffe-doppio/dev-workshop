@@ -16,6 +16,7 @@ Corrections are logged here, never silently applied. Versioned documents are nev
 | C-004 | Section 2: "What the gap looks like, by hub" replaced by "What digital evidence can establish" |
 | C-005 | Section 5: each instrument gets a two-sentence description, an example snippet, and TLP labels shown as badges |
 | C-006 | Section 6: storytelling presentation of the portal, screenshots, personas and live demo folded in `<details>` |
+| C-007 | Sections 2 and 3: "What digital evidence can establish" and "Four evidence layers" tables replaced by schemas `evidence-establishes.svg` and `evidence-layers.svg` |
 
 ### Pitch
 

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="t d">
+  <title id="t">What digital evidence can establish</title>
+  <desc id="d">Seven claims a person can only assert without evidence, each turned into a fact preserved digital evidence can establish: what the system answered, that a refusal exists, when it happened, which rule produced it, which body owns it, that the evidence has not changed, and a pattern across cases.</desc>
+  <style>
+    text { font-family: Inter, "Helvetica Neue", Arial, sans-serif; }
+    .h1 { font-size: 34px; font-weight: 700; fill: #ece9f5; }
+    .sub { font-size: 18px; fill: #a6a2b8; }
+    .lbl { font-size: 14px; font-weight: 700; letter-spacing: 3px; }
+    .was { font-size: 18px; font-style: italic; fill: #a6a2b8; }
+    .now { font-size: 19px; font-weight: 700; fill: #ece9f5; }
+    .foot { font-size: 16px; fill: #a6a2b8; }
+  </style>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8ee6c4"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="720" rx="24" fill="#15141c"/>
+  <text x="60" y="70" class="h1">What digital evidence can establish</text>
+  <text x="60" y="104" class="sub">The administration holds the file, the logs and the rules. Evidence moves part of that to the person's side.</text>
+
+  <text x="60" y="152" class="lbl" fill="#ff7a7a">WITHOUT EVIDENCE: A CLAIM</text>
+  <text x="660" y="152" class="lbl" fill="#8ee6c4">WITH PRESERVED EVIDENCE: A FACT</text>
+
+  <g>
+    <rect x="60" y="168" width="480" height="56" rx="12" fill="#201f2a"/>
+    <text x="84" y="202" class="was">"The portal did not let me"</text>
+    <rect x="660" y="168" width="480" height="56" rx="12" fill="#201f2a" stroke="#8ee6c4" stroke-width="2"/>
+    <text x="684" y="202" class="now">What the system answered, field by field</text>
+
+    <rect x="60" y="236" width="480" height="56" rx="12" fill="#201f2a"/>
+    <text x="84" y="270" class="was">A decision nobody signed or notified</text>
+    <rect x="660" y="236" width="480" height="56" rx="12" fill="#201f2a" stroke="#8ee6c4" stroke-width="2"/>
+    <text x="684" y="270" class="now">That a refusal exists at all</text>
+
+    <rect x="60" y="304" width="480" height="56" rx="12" fill="#201f2a"/>
+    <text x="84" y="338" class="was">A date that depends on a phone</text>
+    <rect x="660" y="304" width="480" height="56" rx="12" fill="#201f2a" stroke="#8ee6c4" stroke-width="2"/>
+    <text x="684" y="338" class="now">When it happened, checkable by anyone</text>
+
+    <rect x="60" y="372" width="480" height="56" rx="12" fill="#201f2a"/>
+    <text x="84" y="406" class="was">A complaint against "the administration"</text>
+    <rect x="660" y="372" width="480" height="56" rx="12" fill="#201f2a" stroke="#8ee6c4" stroke-width="2"/>
+    <text x="684" y="406" class="now">Which rule produced it, in which part</text>
+
+    <rect x="60" y="440" width="480" height="56" rx="12" fill="#201f2a"/>
+    <text x="84" y="474" class="was">A complaint sent to the wrong door</text>
+    <rect x="660" y="440" width="480" height="56" rx="12" fill="#201f2a" stroke="#ffc766" stroke-width="2"/>
+    <text x="684" y="474" class="now">Which body owns that rule or that data</text>
+
+    <rect x="60" y="508" width="480" height="56" rx="12" fill="#201f2a"/>
+    <text x="84" y="542" class="was">A screenshot "anyone could have edited"</text>
+    <rect x="660" y="508" width="480" height="56" rx="12" fill="#201f2a" stroke="#8ee6c4" stroke-width="2"/>
+    <text x="684" y="542" class="now">That the file has not changed since capture</text>
+
+    <rect x="60" y="576" width="480" height="56" rx="12" fill="#201f2a"/>
+    <text x="84" y="610" class="was">An isolated anecdote</text>
+    <rect x="660" y="576" width="480" height="56" rx="12" fill="#201f2a" stroke="#8ee6c4" stroke-width="2"/>
+    <text x="684" y="610" class="now">A pattern, once others document the same way</text>
+  </g>
+
+  <g stroke="#8ee6c4" stroke-width="3" marker-end="url(#ah)">
+    <line x1="552" y1="196" x2="648" y2="196"/>
+    <line x1="552" y1="264" x2="648" y2="264"/>
+    <line x1="552" y1="332" x2="648" y2="332"/>
+    <line x1="552" y1="400" x2="648" y2="400"/>
+    <line x1="552" y1="468" x2="648" y2="468"/>
+    <line x1="552" y1="536" x2="648" y2="536"/>
+    <line x1="552" y1="604" x2="648" y2="604"/>
+  </g>
+
+  <text x="60" y="678" class="foot">It does not replace the judge's own investigation: it gives the judge precise facts to ask the administration about.</text>
+</svg>

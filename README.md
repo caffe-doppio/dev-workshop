@@ -57,6 +57,8 @@ Work in progress. Materials are being prepared for the session.
     - [`lab-flow.svg`](support/schemas/lab-flow.svg): 60 minute timeline
     - [`digital-history.svg`](support/schemas/digital-history.svg): why the digital is political
     - [`right-defendant.svg`](support/schemas/right-defendant.svg): server, browser, user: two bugs, two owners
+    - [`evidence-establishes.svg`](support/schemas/evidence-establishes.svg): what digital evidence can establish
+    - [`evidence-layers.svg`](support/schemas/evidence-layers.svg): four evidence layers, cheapest first
     - [`evidence-circuit.svg`](support/schemas/evidence-circuit.svg): collect, seal, hand off, verify
   - `screenshots/`: Miniluv portal screenshots
 - [`workbook/`](workbook/): participant material, **start here during the lab**

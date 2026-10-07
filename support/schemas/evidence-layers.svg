@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="t d">
+  <title id="t">Four evidence layers, cheapest first</title>
+  <desc id="d">Screen, wire and code, from cheapest to most expensive, each with what it is, where to find it and who can read it. The three converge into correlation: this value, through this rule, gave that screen. Any layer alone fails.</desc>
+  <style>
+    text { font-family: Inter, "Helvetica Neue", Arial, sans-serif; }
+    .h1 { font-size: 34px; font-weight: 700; fill: #ece9f5; }
+    .sub { font-size: 18px; fill: #a6a2b8; }
+    .lbl { font-size: 14px; font-weight: 700; letter-spacing: 3px; fill: #a6a2b8; }
+    .big { font-size: 30px; font-weight: 800; fill: #ece9f5; }
+    .what { font-size: 17px; fill: #ece9f5; }
+    .k { font-size: 13px; font-weight: 700; letter-spacing: 2px; fill: #6b6880; }
+    .v { font-size: 16px; fill: #a6a2b8; }
+    .quote { font-size: 24px; font-weight: 700; fill: #8ee6c4; }
+    .fail { font-size: 15px; fill: #ff7a7a; }
+  </style>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b6880"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="680" rx="24" fill="#15141c"/>
+  <text x="60" y="70" class="h1">Four evidence layers, cheapest first</text>
+  <text x="60" y="104" class="sub">Any layer alone fails. Together they close the chain.</text>
+
+  <g transform="translate(0,20)">
+  <line x1="60" y1="134" x2="1130" y2="134" stroke="#6b6880" stroke-width="2" marker-end="url(#ah)"/>
+  <text x="60" y="124" class="k">CHEAPEST</text>
+  <text x="1140" y="124" class="k" text-anchor="end">NEEDS AN EXPERT</text>
+
+  <rect x="60" y="154" width="340" height="236" rx="16" fill="#201f2a" stroke="#6b6880" stroke-width="2"/>
+  <text x="84" y="190" class="lbl">LAYER 1</text>
+  <text x="84" y="228" class="big">Screen</text>
+  <text x="84" y="262" class="what">What the person saw</text>
+  <text x="84" y="306" class="k">WHERE</text>
+  <text x="84" y="328" class="v">The page itself</text>
+  <text x="84" y="356" class="k">READ BY</text>
+  <text x="84" y="378" class="v">Anyone</text>
+
+  <rect x="430" y="154" width="340" height="236" rx="16" fill="#201f2a" stroke="#6b6880" stroke-width="2"/>
+  <text x="454" y="190" class="lbl">LAYER 2</text>
+  <text x="454" y="228" class="big">Wire</text>
+  <text x="454" y="262" class="what">What the server answered (HAR)</text>
+  <text x="454" y="306" class="k">WHERE</text>
+  <text x="454" y="328" class="v">DevTools &gt; Network</text>
+  <text x="454" y="356" class="k">READ BY</text>
+  <text x="454" y="378" class="v">Anyone, with one sentence of help</text>
+
+  <rect x="800" y="154" width="340" height="236" rx="16" fill="#201f2a" stroke="#6b6880" stroke-width="2"/>
+  <text x="824" y="190" class="lbl">LAYER 3</text>
+  <text x="824" y="228" class="big">Code</text>
+  <text x="824" y="262" class="what">The rule that made the screen</text>
+  <text x="824" y="306" class="k">WHERE</text>
+  <text x="824" y="328" class="v">DevTools &gt; Sources / Debugger</text>
+  <text x="824" y="356" class="k">READ BY</text>
+  <text x="824" y="378" class="v">A technical witness</text>
+
+  <g stroke="#6b6880" stroke-width="3" fill="none" marker-end="url(#ah)">
+    <path d="M230,394 L230,420 L520,420 L520,446"/>
+    <line x1="600" y1="394" x2="600" y2="446"/>
+    <path d="M970,394 L970,420 L680,420 L680,446"/>
+  </g>
+
+  <rect x="60" y="452" width="1080" height="120" rx="16" fill="#201f2a" stroke="#8ee6c4" stroke-width="2"/>
+  <text x="84" y="488" class="lbl" fill="#8ee6c4">LAYER 4 · CORRELATION</text>
+  <text x="84" y="526" class="quote">"This value, through this rule, gave that screen."</text>
+  <text x="84" y="556" class="v">Where: counsel's sentence. Read by: anyone, once written well.</text>
+
+  <text x="60" y="614" class="fail">Screen alone is a claim  ·  Wire alone is unreadable  ·  Code alone may never have run in this case</text>
+  </g>
+</svg>
