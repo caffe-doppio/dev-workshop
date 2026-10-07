@@ -64,7 +64,7 @@ Work in progress. Materials are being prepared for the session.
 - [`lab/`](lab/): fictional citizen portal, prod (after the session)
 - [`facilitation/`](facilitation/): timed runbook, empty for now
 - [`resources/`](resources/): responsible OSINT, further reading, empty for now
-- `dev/miniluv/`: fictional citizen portal, dev and preprod (local only, not published)
+- `dev/miniluv/`: fictional citizen portal, dev and preprod. Source at <https://github.com/caffe-doppio/dev-miniluv>; the portal runs at <https://miniluv-workshop-hands-in.osc-fr1.scalingo.io/#/>
   - `README.md`: how to run it locally
   - `specs/SPEC-miniluv_v01.md`: personas, endpoints, scenarios, fixture plan
   - `site/`: Vue + Fastify portal, Docker, static JSON API

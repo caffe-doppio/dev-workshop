@@ -37,6 +37,17 @@ And when screen and wire **agree**, that is a result too: the refusal is the aut
 
 One file is a finding, not a statistic. Anything beyond the observed case stays a hypothesis: say so.
 
+## Asking for the code
+
+Many public portals publish their source code. When they do not, you can sometimes ask for it.
+
+- **France: source code is an administrative document.** Since the Digital Republic Act (Loi n° 2016-1321 du 7 octobre 2016), source code held by an administration is listed among communicable administrative documents (Code des relations entre le public et l'administration, art. L. 300-2). A refusal can be brought before the CADA.
+- **France: algorithmic decisions must be explained.** When an individual decision is taken on the basis of an algorithmic processing, the person concerned can ask for the rules of that processing and the main features of how it was applied to them (same code, art. L. 311-3-1).
+
+Other countries have their own access to documents rules: check yours.
+
+Keep the limit in mind: published code is **a** version, not necessarily the one that ran on the day of the refusal. The code tells you what the rule is; only your timestamped capture tells you what this person received, and when. You need both, matched: that is the Correlation layer.
+
 ## Writing counsel's sentence
 
 ```text
