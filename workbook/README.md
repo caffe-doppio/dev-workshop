@@ -85,3 +85,5 @@ One page per notion, written for people who have never opened DevTools.
 ## Take it home
 
 This workbook stays online after the session. The methods work on any portal, as long as you stay [passive](wiki/frame-passive-only.md) and in your own session.
+
+The questions from the room, to answer with more time: [After the workshop](after-the-workshop.md).

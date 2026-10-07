@@ -27,6 +27,7 @@ Corrections are logged here, never silently applied. Versioned documents are nev
 - `wiki/seal-sha256.md`: the page promised a comparison done by the computer "below" and gave none. Commands added for macOS, Linux and Windows.
 - `wiki/seal-age.md`: overwrite with `-o` added to common mistakes.
 - `README.md`: new "Before you come" section: one laptop per group, Firefox or Chrome, `age` on at least one laptop, `ots` optional.
+- Added `after-the-workshop.md` and the GitHub issue form `.github/ISSUE_TEMPLATE/after-the-workshop.yml`: the discussion questions, to answer after the session by issue or pull request. Public: patterns, not names.
 
 ### Pitch
 
