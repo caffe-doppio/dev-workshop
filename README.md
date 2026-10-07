@@ -41,6 +41,7 @@ Work in progress. Materials are being prepared for the session.
 ## Arborescence
 
 - [`README.md`](README.md)
+- [`CHANGELOG.md`](CHANGELOG.md): corrections, logged never silently applied
 - [`.gitignore`](.gitignore)
 - [`.gitattributes`](.gitattributes): evidence files keep their exact bytes
 - [`assets/`](assets/)
@@ -57,6 +58,7 @@ Work in progress. Materials are being prepared for the session.
     - [`digital-history.svg`](support/schemas/digital-history.svg): why the digital is political
     - [`right-defendant.svg`](support/schemas/right-defendant.svg): server, browser, user: two bugs, two owners
     - [`evidence-circuit.svg`](support/schemas/evidence-circuit.svg): collect, seal, hand off, verify
+  - `screenshots/`: Miniluv portal screenshots
 - [`workbook/`](workbook/): participant material, **start here during the lab**
   - [`README.md`](workbook/README.md): how the lab works, persona choice, wiki index
   - [`personas/`](workbook/personas/): one sheet per fictional citizen, TLP:GREEN
