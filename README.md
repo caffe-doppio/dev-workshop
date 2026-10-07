@@ -32,7 +32,7 @@ This repository hands some of them over, reframed for legal practice: the Traffi
 <https://framagit.org/caffe-doppio/gathering-lab>
 
 Participants: start with [`workbook/README.md`](workbook/README.md).
-Workshop presentation for the organisers: [`support/support_EN_v01.md`](support/support_EN_v01.md).
+Workshop presentation for the organisers: [`support/support_EN_v01.md`](support/support_EN_v02.md).
 
 ## Status
 
