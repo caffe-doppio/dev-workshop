@@ -25,6 +25,12 @@ This repository hands some of them over, reframed for legal practice: the Traffi
 > The hands-on part runs on a fictional, Orwellian citizen portal built for the occasion.
 > No real case data is published here.
 
+## Find this repository
+
+![QR code to https://framagit.org/caffe-doppio/gathering-lab](assets/qr/repo-gathering-lab.svg){width=240px}
+
+<https://framagit.org/caffe-doppio/gathering-lab>
+
 Participants: start with [`workbook/README.md`](workbook/README.md).
 Workshop presentation for the organisers: [`support/support_EN_v01.md`](support/support_EN_v01.md).
 
@@ -34,40 +40,36 @@ Work in progress. Materials are being prepared for the session.
 <!-- N'est pas mettre des répertoires et fichiers .gitignored, sauf dev/ -->
 ## Arborescence
 
-```text
-workshop/
-├── README.md
-├── .gitignore
-├── .gitattributes                          (evidence files keep their exact bytes)
-├── assets/
-│   └── badges-tlp/                         (TLP 2.0 badges: clear, green, amber, amber-strict, red)
-├── src/
-│   └── DFF_InterHub_Session_Proposal.md    (validated proposal, 90 min format, kept as is)
-├── pitch/
-│   └── pitch-coordination_EN_v01.md        (oral pitch for the coordination call)
-├── support/
-│   ├── support_EN_v01.md                   (workshop support, start here)
-│   └── schemas/
-│       ├── lab-flow.svg                    (60 minute timeline)
-│       ├── digital-history.svg             (why the digital is political)
-│       ├── right-defendant.svg             (server, browser, user: two bugs, two owners)
-│       └── evidence-circuit.svg            (collect, seal, hand off, verify)
-├── lab/                                    (fictional citizen portal prod)
-├── dev/
-│   └── miniluv/                            (fictional citizen portal dev & préprod)
-│       ├── README.md                       (how to run it locally)
-│       ├── specs/
-│       │   └── SPEC-miniluv_v01.md         (personas, endpoints, scenarios, fixture plan)
-│       ├── site/                           (Vue + Fastify portal, Docker, static JSON API)
-│       ├── fixtures/                       (synthetic HAR and pre-anchored .ots)
-│       └── templates/                      (custody log, install checklist, empty for now)
-├── workbook/                               (participant material, start here during the lab)
-│   ├── README.md                           (how the lab works, persona choice, wiki index)
-│   ├── personas/                           (one sheet per fictional citizen, TLP:GREEN)
-│   └── wiki/                               (one page per notion: browser, seal, share, frame, terminal)
-├── facilitation/                           (timed runbook, empty for now)
-└── resources/                              (responsible OSINT, further reading, empty for now)
-```
+- [`README.md`](README.md)
+- [`.gitignore`](.gitignore)
+- [`.gitattributes`](.gitattributes): evidence files keep their exact bytes
+- [`assets/`](assets/)
+  - [`badges-tlp/`](assets/badges-tlp/): TLP 2.0 badges (clear, green, amber, amber-strict, red)
+  - [`qr/repo-gathering-lab.svg`](assets/qr/repo-gathering-lab.svg): QR code to this repository
+- [`src/`](src/)
+  - [`DFF_InterHub_Session_Proposal.md`](src/DFF_InterHub_Session_Proposal.md): validated proposal, 90 min format, kept as is
+- [`pitch/`](pitch/)
+  - [`pitch-coordination_EN_v01.md`](pitch/pitch-coordination_EN_v01.md): oral pitch for the coordination call
+- [`support/`](support/)
+  - [`support_EN_v01.md`](support/support_EN_v01.md): workshop presentation for the organisers
+  - [`schemas/`](support/schemas/)
+    - [`lab-flow.svg`](support/schemas/lab-flow.svg): 60 minute timeline
+    - [`digital-history.svg`](support/schemas/digital-history.svg): why the digital is political
+    - [`right-defendant.svg`](support/schemas/right-defendant.svg): server, browser, user: two bugs, two owners
+    - [`evidence-circuit.svg`](support/schemas/evidence-circuit.svg): collect, seal, hand off, verify
+- [`workbook/`](workbook/): participant material, **start here during the lab**
+  - [`README.md`](workbook/README.md): how the lab works, persona choice, wiki index
+  - [`personas/`](workbook/personas/): one sheet per fictional citizen, TLP:GREEN
+  - [`wiki/`](workbook/wiki/): one page per notion (browser, seal, share, frame, terminal)
+- [`lab/`](lab/): fictional citizen portal, prod (after the session)
+- [`facilitation/`](facilitation/): timed runbook, empty for now
+- [`resources/`](resources/): responsible OSINT, further reading, empty for now
+- `dev/miniluv/`: fictional citizen portal, dev and preprod (local only, not published)
+  - `README.md`: how to run it locally
+  - `specs/SPEC-miniluv_v01.md`: personas, endpoints, scenarios, fixture plan
+  - `site/`: Vue + Fastify portal, Docker, static JSON API
+  - `fixtures/`: synthetic HAR and pre-anchored `.ots`
+  - `templates/`: custody log, install checklist, empty for now
 
 ## Planned
 
