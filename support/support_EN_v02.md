@@ -48,7 +48,7 @@
 <!--Pour faire beau-->
 <https://github.com/caffe-doppio/dev-workshop>
 
-![QR code to https://github.com/caffe-doppio/dev-workshop](../assets/qr/hub/repo-dev-workshop.svg)
+![QR code to https://github.com/caffe-doppio/dev-workshop](../assets/qr/repo-dev-workshop.svg)
 
 Participant material : [`workbook/README.md`](../workbook/README.md)
 Portal [Miniluv Citizen Services](<https://miniluv-workshop-hands-in.osc-fr1.scalingo.io/#/>)

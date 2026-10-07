@@ -27,14 +27,14 @@ This repository hands some of them over, reframed for legal practice: the Traffi
 
 ## Find this repository
 
-![QR code to https://github.com/caffe-doppio/dev-workshop](assets/qr/hub/repo-dev-workshop.svg)
+![QR code to https://github.com/caffe-doppio/dev-workshop](assets/qr/repo-dev-workshop.svg)
 
 <https://framagit.org/caffe-doppio/gathering-lab>
 <!--Pour faire beau-->
 <https://github.com/caffe-doppio/dev-workshop>
 
 Participants: start with [`workbook/README.md`](workbook/README.md).
-Workshop presentation for the organisers: [`support/support_EN_v01.md`](support/support_EN_v02.md).
+Workshop presentation for the organisers: [`support/support_EN_v02.md`](support/support_EN_v02.md).
 
 ## Status
 
@@ -48,13 +48,14 @@ Work in progress. Materials are being prepared for the session.
 - [`.gitattributes`](.gitattributes): evidence files keep their exact bytes
 - [`assets/`](assets/)
   - [`badges-tlp/`](assets/badges-tlp/): TLP 2.0 badges (clear, green, amber, amber-strict, red)
-  - [`qr/repo-gathering-lab.svg`](assets/qr/repo-gathering-lab.svg): QR code to this repository
+  - [`qr/repo-gathering-lab.svg`](assets/qr/repo-gathering-lab.svg): QR code to the Framagit repository
+  - [`qr/repo-dev-workshop.svg`](assets/qr/repo-dev-workshop.svg): QR code to the GitHub mirror
 - [`src/`](src/)
   - [`DFF_InterHub_Session_Proposal.md`](src/DFF_InterHub_Session_Proposal.md): validated proposal, 90 min format, kept as is
 - [`pitch/`](pitch/)
   - [`pitch-coordination_EN_v01.md`](pitch/pitch-coordination_EN_v01.md): oral pitch for the coordination call
 - [`support/`](support/)
-  - [`support_EN_v01.md`](support/support_EN_v01.md): workshop presentation for the organisers
+  - [`support_EN_v02.md`](support/support_EN_v02.md): workshop presentation for the organisers
   - [`schemas/`](support/schemas/)
     - [`lab-flow.svg`](support/schemas/lab-flow.svg): 60 minute timeline
     - [`digital-history.svg`](support/schemas/digital-history.svg): why the digital is political
